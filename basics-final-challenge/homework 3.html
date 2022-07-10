@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G&G Software</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+
+    <style>
+      body {
+        background: linear-gradient(rgba(26, 4, 37, 1), ivory);
+        text-align: center;
+        border-color: ivory;
+      }
+      h1 {
+        color: rgba(26, 4, 37, 1);
+        padding: white;
+        background-color: ivory;
+        margin-left: 600px;
+        margin-right: 600px;
+        border-radius: 100px;
+      }
+      .gng-logo {
+        width: fit-content;
+        height: 5%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding: white;
+        max-width: 175px;
+        margin-right: auto;
+        margin-left: auto;
+        tab-size: 10%;
+        display: block;
+      }
+
+      .rocket {
+        size: 20px;
+        padding: 10px;
+        max-width: 500px;
+        border-radius: 189px;
+      }
+
+      .buttons {
+        color: rgba(26, 4, 37, 1);
+        display: inline-table;
+        margin: 20px;
+        background-color: lightcoral;
+        border-color: salmon;
+        border-radius: 30px;
+        box-shadow: aliceblue;
+        tab-size: 14px;
+        font: Celebri Sans;
+        font-size: 22 px;
+        font-weight: 500px;
+        padding: 15px 25px;
+        text-align-last: center;
+        transition: all 200ms ease ease-in-out;
+        text-decoration: none;
+      }
+
+      .buttons:hover {
+        background-color: white;
+        border-color: ightcoral;
+        color: lightcoral;
+        cursor: pointer;
+        box-shadow: salmon;
+      }
+      .me {
+        font-style: italic;
+        color: rgba(26, 4, 37, 1);
+        text-align: center;
+        font-size: 22px;
+        font-variant: inherit;
+      }
+      .solutions {
+        font: small-caption;
+        font-weight: 700;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        margin-left: 545px;
+        margin-right: 545px;
+        color: rgba(26, 4, 37, 1);
+        background-color: ivory;
+        border-radius: 300px;
+        box-shadow: salmon;
+      }
+      .container {
+        width: auto;
+        overflow: auto;
+        background-color: rgba(26, 4, 37, 1);
+        margin-top: 17px;
+        padding-bottom: 0.25rem !important;
+        padding-top: 0.25rem !important;
+        box-shadow: ivory;
+      }
+
+      .us {
+        width: 200px;
+        padding: 50px;
+        border-radius: 69px;
+      }
+
+      .fa-linkedin:before {
+        content: "\f08c";
+        color:cornflowerblue;
+        cursor: pointer;
+        
+      }
+
+      .linkedin{
+              text-decoration: none;
+              cursor:pointer;
+              color:cornflowerblue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <span
+        ><img
+          class="gng-logo"
+          src="https://shecodesgio.s3.eu-west-2.amazonaws.com/gng-logo.png"
+        />
+      </span>
+    </div>
+
+    <header></header>
+    <h1>Software solutions... to the moon!!!</h1>
+
+    <div>
+      <img
+        class="rocket"
+        src="https://shecodesgio.s3.eu-west-2.amazonaws.com/services-bg.jpeg"
+      />
+    </div>
+    <p class="solutions">
+      We provide software development and consulting services tailored to your
+      needs. 
+    </br>
+    </br> We place great emphasis on adding real value to your project.
+    </p>
+    <span>
+      <img
+        class="us"
+        src="https://shecodesgio.s3.eu-west-2.amazonaws.com/gio_pic.jpeg"
+      />
+    </span>
+    <div>
+      
+        <button id="contactUs" class="buttons" ><strong>Contact us to Request a Quote</strong></button>
+       <button id="learnMore" class="buttons" href=" http://www.gngsoftware.com/home.html"> <strong>Learn More</strong></button> 
+      </strong>
+    </div>
+    <script>
+      let country = prompt("Where are you based?");
+      alert("We have got you covered");
+
+      function contactUs() {
+        let consultation = prompt("Would you like a Consultation?").toLowerCase();
+
+        if (consultation === "yes") {
+          window.open("http://www.gngsoftware.com/contact.html" ,"_blank");
+        } else {
+          alert("Thank you, we hope to see you again soon");
+        }
+      }
+function learnMore(){
+          window.open("http://www.gngsoftware.com" ,"_blank");
+}
+      let contactButton = document.querySelector("#contactUs");
+      let learnMoreButton= document.querySelector("#learnMore");
+
+      contactButton.addEventListener("click", contactUs);
+      learnMoreButton.addEventListener("click", learnMore);
+    </script>
+<hr>
+    <p class="me">This page was built by Panagiota Tsapournioti</p>
+    
+    
+   
+    <a class="linkedin" href="https://www.linkedin.com/company/gng-software/about/" target="_blank">
+	<i class="fab fa-linkedin"> </i>	<strong> LinkedIn</strong> </a>
+         
+        
+  
+</body>
+</html>
