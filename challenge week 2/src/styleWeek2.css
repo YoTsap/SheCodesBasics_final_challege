@@ -1,0 +1,59 @@
+.container-fluid {
+  width: 100%;
+}
+.body {
+  font-family: sans-serif;
+}
+.icons {
+  size: 10px;
+}
+.searchbox {
+  width: 2000px;
+  color: blue;
+}
+.searchbutton {
+  color: gray;
+  background-color: rgb(245, 243, 239);
+  border-radius: 5px;
+  padding: 8px;
+  border-color: mistyrose;
+}
+.date {
+  border: black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  color: grey;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+.sun {
+  width: 20%;
+}
+img {
+  width: 30%;
+}
+.city {
+  font-size: 30px;
+  color: rgb(100, 97, 97);
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  padding: 10px;
+}
+.temperature {
+  font-size: 25px;
+}
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+.nextweek {
+  font-size: 20px;
+  color: rgb(100, 97, 97);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
